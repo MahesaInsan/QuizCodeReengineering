@@ -9,7 +9,8 @@ public class Register{
             return "Successful";
 
         //Check if all the fields have a value
-        }else if(email.equals("") || password.equals("") || confpassword.equals("")){
+        }else if(email.equals("") || password.equals("") 
+                || confpassword.equals("")){
             return "Please fill all the fields";
 
         //Return an error if email doesnt contain @
@@ -29,3 +30,4 @@ public class Register{
         return "Register Failed";    
     }
 }
+
